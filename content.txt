@@ -1,0 +1,106 @@
+/**
+*	OPEN A NEW LINE
+*
+*	Pressing 'o' in command mode opens a new line below the current line
+*	and places you into Insert Mode.
+*
+*	Pressing 'O' in command mode opens a new line above the current line
+*	and also places you into Insert Mode. 
+*
+*
+*
+*
+**/
+
+/**\n
+*\tDELETION COMMANDS\n
+*\n	
+*\tI. REMOVE A SINGLE CHARACTER\n
+*\n
+*\tTo remove a single character in Command Mode, navigate over the\n
+*\tcharacter and press 'x'\n
+*\n
+*\tIf you want to remove several characters after the character you\n
+*\tare currently on, prepend the 'x' command with the number of characters\n
+*\tyou want to remove. So '5x' will remove 5 characters starting from\n 
+*\tthe current cursor position.\n 
+*\n
+*\n
+*\tII. REMOVE A LINE\n
+*\n
+*\tTo remove an entire line, enter Command Mode and press 'dd' over the line.\n 
+*\n
+*\t-Click here and delete this entire line. Everything on this line will be removed!\n
+*\n
+*\n
+*\tTo delete to the end of the line starting from your cursor, press 'D'\n
+*\n	
+*\t.................click the greater than --> all this text should be deleted!\n
+*\n
+**/
+
+
+/**\n
+*\tCOPYING AND PASTING\n
+*\t\n
+*\tWhen in Command Mode, pressing 'yy' will copy the current line to the clip board.\n
+*\tTo paste that line, use the 'puts command,' by pressing 'p' at the desired line.\n	
+*\t\n
+*\tTo copy a word, hover over the word and press 'yw'\n	
+*\t\n
+*\tTo copy to the end of the line press 'y$'\n
+*\t\n	
+*\tIn the 'Deletion Commands' exercise, you learned how to remove text.\n	
+*\tAll text removed by those commands gets copied to the clipboard so you\n
+*\tcan think of the delete commands as the 'cut' feature. Anything you delete\n	
+*\tcan be pasted with the puts command.\n
+*\t\n	
+**/
+
+
+/**\n
+*\t         \n
+*\t         \n
+*\t         \n
+*\t         \n	
+*\t         \n
+*\t         \n	
+*\t         \n
+*\t         \n
+*\t         \n	
+*\t         \n	
+*\t         \n
+*\t         \n	
+*\t         \n
+*\t         \n
+*\t         \n	
+*\t         \n	
+*\t         \n
+*\t         \n	
+*\t         \n	
+*\t         \n
+**/
+
+
+/**\n
+*\t         \n
+*\t         \n
+*\t         \n
+*\t         \n	
+*\t         \n
+*\t         \n	
+*\t         \n
+*\t         \n
+*\t         \n	
+*\t         \n	
+*\t         \n
+*\t         \n	
+*\t         \n
+*\t         \n
+*\t         \n	
+*\t         \n	
+*\t         \n
+*\t         \n	
+*\t         \n	
+*\t         \n
+**/
